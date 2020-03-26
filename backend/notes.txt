@@ -1,0 +1,29 @@
+/**
+ * Tipos de parâmetros:
+ * 
+ * Query params: Parâmetro nomeados enviados na rota após "?" (Filtros, paginação)
+ * Ex: '/users/?name=Alekxandr%idade=384'
+ * const params = request.query;
+ * Route params: Parâmetros utilizados para identificar recursos
+ * Ex:'/users/:id' > localost:3333/users/1
+ * const params = request.params;
+ * Não pode enviar mais parâmetros que o esperado
+ * 
+ * Request Body: Corpo da requisição, utilizado para criar ou alterar recursos
+ * Ex: '/users'
+ * const params = request.body;
+ */
+
+ /**
+  * http://knexjs.org/
+  * npm install knex
+  * # Then add one of the following (adding a --save) flag:
+  * $ npm install pg
+  * $ npm install sqlite3
+  * $ npm install mysql
+  * $ npm install mysql2
+  * $ npm install oracledb
+  * $ npm install mssql
+  * 
+  * npx knex init
+  */
