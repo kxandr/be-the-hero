@@ -5,3 +5,5 @@ npm install cors
 npm install react-router-dom
 
 npm install axios
+
+expo install expo-constants
